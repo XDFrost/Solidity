@@ -30,3 +30,4 @@ contract MyFirstContract {                 // Contract Creation
 }
 
 // During compilation, ABI will contain all the data
+// ABI runs on ethereum blockchain

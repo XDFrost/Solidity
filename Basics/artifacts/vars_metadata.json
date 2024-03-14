@@ -6,47 +6,47 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "myNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myState",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_hey",
+						"name": "_text",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "addInfo",
+				"name": "updateVars",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hey",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "no",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"basics.sol": "MyFirstContract"
+			"state_variables.sol": "vars"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -77,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"basics.sol": {
-			"keccak256": "0x6875a3a04b67d9b7cdd18518be90c86642444311123fe4bc91e8ece96ac96acc",
+		"state_variables.sol": {
+			"keccak256": "0x444f2234aff9874ec3a463984be5c40fc921cc0f32ce066448c6ede9f5754836",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://818388103f6dbaf10911e92ee5e0fea1699bbad5670fadc1fdce0bbf25c92d32",
-				"dweb:/ipfs/QmVNV155tdHbe7WcXDsBHDJXMBq5TMUAAdJXfsXPFNivQN"
+				"bzz-raw://07246e94c21395e890a0f45542b52fea8261c3126f7180e82b0be89b5536fb56",
+				"dweb:/ipfs/QmYWr3N7Jxo8ModAzJZcUGUrS4Zbgg4vC8CyRV5VXxViyN"
 			]
 		}
 	},

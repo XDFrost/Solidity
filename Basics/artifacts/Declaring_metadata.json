@@ -8,37 +8,30 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "_b",
 						"type": "uint256"
 					}
 				],
-				"name": "addInfo",
-				"outputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "hey",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "no",
+				"name": "getInfo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -47,6 +40,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_key",
+						"type": "uint256"
+					}
+				],
+				"name": "updateData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -63,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"basics.sol": "MyFirstContract"
+			"functions.sol": "Declaring"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -77,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"basics.sol": {
-			"keccak256": "0x6875a3a04b67d9b7cdd18518be90c86642444311123fe4bc91e8ece96ac96acc",
+		"functions.sol": {
+			"keccak256": "0x2ff2ef1d3f70c0dcd88225f1323c9d124d498c490ff044ab00a8791b1b632a16",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://818388103f6dbaf10911e92ee5e0fea1699bbad5670fadc1fdce0bbf25c92d32",
-				"dweb:/ipfs/QmVNV155tdHbe7WcXDsBHDJXMBq5TMUAAdJXfsXPFNivQN"
+				"bzz-raw://aa029c2b40406c1f574cef397f0413b2535d4ea5363edd67c1a3ac7441b0a4eb",
+				"dweb:/ipfs/QmXBrVkKP5UKWSfYD5kwcQAJ7XAMss4hQL9KErDkvQExzG"
 			]
 		}
 	},
