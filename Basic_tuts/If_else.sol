@@ -4,17 +4,22 @@ contract Conditional {
     int256 public myNum = 5;
     string public myString = "ABC";
 
-    function get() public returns(string memory) {
-        if(myNum == 5) {
-            myString = "Num value is 5";
-        } 
-        else {
-            myString = "Different Num value";
-        }
-        return myString;
-    }
+    // function get(uint256 _num) public returns(string memory) {
+    //     if(_num == 5) {
+    //         myString = "Num value is 5";
+    //     } 
+    //     else if(_num == 4) {
+    //         myString = "Num is 4";
+    //     }
+    //     else {
+    //         myString = "Different Num value";
+    //     }
+    //     return myString;
+    // }
 
-    function str() view public returns(string memory) {
-        return myString;
+    // Using ternary operator
+
+    function shorthand(uint256 _num) public returns(string memory) {
+        return _num == 5 ? myString = "True Value" : myString = "False Value";
     }
 }
