@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pure_keyword.sol": "Pure_"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pure_keyword.sol": {
+			"keccak256": "0x2742b4bc2b544d4cec544c48d2ce6fff62be576291592a3c3a9bba1ce1efcc80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75f11d28d350a166465f15fc898c2c1b3e81ecbcf4a56627859bb743fa749eb6",
+				"dweb:/ipfs/QmadnuraMmAmz8Sx5o85NZcjZ5Jsrwqfp1eQw9S5fZTVbC"
+			]
+		}
+	},
+	"version": 1
+}

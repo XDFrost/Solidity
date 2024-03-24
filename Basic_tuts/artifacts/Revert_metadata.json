@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revert.sol": "Revert"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revert.sol": {
+			"keccak256": "0x309759ccb478c20e02d1c181953fe7277c74088684d649220cec73f46e5ec6a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b046e2db4516a89de22738d5e21d95081bb6658ed8cf4d68d7be9d3aab695c9c",
+				"dweb:/ipfs/QmdBq4yS3FqxmyWHrfyNeagBkDzq3NdGeiCVJoi3wPbH1f"
+			]
+		}
+	},
+	"version": 1
+}
